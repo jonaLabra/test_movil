@@ -5,8 +5,16 @@ class Data {
   bool right;
   int time;
   int timestamp;
-  String studentEventId, userId;
+  String studentEventId, userId, uploadId;
 
-  Data(this.answer, this.guideId, this.questionId, this.right,
-      this.studentEventId, this.time, this.timestamp, this.userId);
+  Data(
+      this.answer,
+      this.guideId,
+      this.questionId,
+      this.right,
+      this.studentEventId,
+      this.time,
+      this.timestamp,
+      this.userId,
+      this.uploadId);
 }
